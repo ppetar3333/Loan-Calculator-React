@@ -174,7 +174,7 @@ const Home = () => {
           {active ? (
             <AmortizationTable
               props={payments}
-              numberOfPayments={numberOfPaymentsState}
+              numberOfPayments={installmentToPay}
               active={active}
             />
           ) : null}
